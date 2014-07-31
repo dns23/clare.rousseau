@@ -1,0 +1,77 @@
+@CHARSET "US-ASCII";
+
+body {
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   font-family: 'Bitter', serif;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.links{
+    font-size: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 330px;
+}
+.link {
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    margin: 10px 8px 10px 8px;
+    background-position: center top;
+    cursor: pointer;
+}
+.link:hover{
+    background-position: center bottom;
+}
+.link.itunes{
+    background-image:url(images/icon_apple.png);
+}
+.link.mail{
+    background-image:url(images/icon_mail.png);
+}
+.link.facebook{
+    background-image:url(images/icon_facebook.png);
+}
+.link.tumblr{
+    background-image:url(images/icon_tumblr.png);
+}
+.link.instagram{
+    background-image:url(images/icon_instagram.png);
+}
+.link.twitter{
+    background-image:url(images/icon_twitter.png);
+}
+
+.container_title {
+    background: #000000;
+    width: 100%;
+}
+
+.container_photos {
+    background: #000000;
+}
+
+.center_image {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.container_footer {
+    width: 100%;
+}
+
+.footer {
+    width: 200px;
+    margin: 0 20% 0 auto;
+}
+p {
+    font-size: 12px;
+}
